@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>menu</header>
+        <a href="#lorem" class="nav-link">useful functions</a>
+        <a href="#ipsum" class="nav-link">ipsum</a>
+        <a href="#dolor" class="nav-link">arrays</a>
+        <a href="#sit" class="nav-link">objects</a>
+        <a href="#amet" class="nav-link">amet</a>
+      </nav>
+      <main id="main-doc">
+        
+        <section class="main-section" id="lorem"><header>Useful functions</header>
+          <h3>Generating random numbers</h3>
+          <p>Vanilla random function</p>
+          <code>Math.random();</code>
+          <p>Generate an integer between 0 and 4 using floor and random</p>
+          <code>Math.floor(Math.random()*4);</code>
+          <br/></br>
+          <hr/>
+          <h3>What type is something</h3>
+          <pre><code class="codeblock">let thing="thingy";
+          console.log(typeof thing);
+          // prints string</code></pre>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus mauris in fermentum luctus. Vestibulum ut nisl in ante consequat venenatis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sed suscipit odio. Nunc consequat felis ut ultrices tristique. Sed bibendum, augue ut vulputate convallis, leo justo egestas ligula, id tristique metus felis quis massa. Cras finibus, enim ac mollis semper, turpis sem facilisis nunc, id interdum augue dui id ante. Donec ante orci, pretium faucibus mi eget, mollis ornare ligula. Maecenas suscipit scelerisque justo in commodo. Pellentesque vel mauris id libero semper varius. Nullam justo magna, congue non fermentum interdum, convallis in arcu. Curabitur in lorem erat. Ut nibh neque, congue faucibus semper vitae, consequat eu mauris. Donec suscipit ultricies nibh, non tempor diam sodales vitae. Pellentesque sollicitudin mi et porttitor accumsan. Vivamus vel pulvinar odio.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus mauris in fermentum luctus. Vestibulum ut nisl in ante consequat venenatis.</p>
+          <code>#Lorem</code>
+        </section>
+        
+        <section class="main-section" id="ipsum"><header>ipsum</header>
+          <p>Proin quis tempor sem. Praesent et erat interdum, consequat leo quis, pulvinar justo. In hac habitasse platea dictumst. Donec vulputate, massa aliquet egestas viverra, nisl nibh dignissim orci, eget efficitur urna metus vel enim. Suspendisse commodo felis et enim vestibulum luctus. Proin maximus molestie dolor et vestibulum. Vestibulum posuere erat quis pellentesque gravida.</p>
+          <code>#Lorem</code>
+          <p>Sed vitae sollicitudin quam</p>
+          <p>Proin quis tempor sem. Praesent et erat interdum, consequat leo quis, pulvinar justo. In hac habitasse platea dictumst. Donec vulputate, massa aliquet egestas viverra, nisl nibh dignissim orci, eget efficitur urna metus vel enim. Suspendisse commodo felis et enim vestibulum luctus. Proin maximus molestie dolor et vestibulum. Vestibulum posuere erat quis pellentesque gravida.</p>
+        </section>
+        
+        <section class="main-section" id="dolor"><header>arrays</header>
+          <p>Declare an array</p>
+          <pre><code>let nameArray=["tracy","Aileen"];</code></pre>
+          <p>Add to end of array with push</p>
+          <code>nameArray.push("santa");</code>
+          <p>Delete last entry on array with pop.  Also it returns the value</p>
+          <code>nameArray.pop;</code>
+          <p>Declare an array</p>
+          <code>let nameArray=["tracy","Aileen"];</code>
+          <p>Iterate over items in an array.  Where array below should be the array name</p>
+          <pre><code>for(let item in array){
+            do whatever
+            }</code></pre>
+          <p>ie</p>
+          <pre><code>
+          for(let name in nameArray){
+            console.log(name);
+            }</code></pre>
+        </section>
+        
+        <section class="main-section" id="sit"><header>Objects</header>
+          <p>Define an object by</p>
+          <pre><code>let myObject = {
+            "name":"Charlie bobblehead",
+            "age":2
+            }</code></pre>
+          <br/>
+          <hr/>
+          <h3>In operator</h3>
+          <p>Can use binary <code>in</code> operator to tell if an object has a particular property </p>
+          <pre><code>console.log("name" in myObject);
+          //returns true</code></pre>
+        </section>
+        
+        <section class="main-section" id="amet"><header>amet</header>
+          <p>Proin quis tempor sem. Praesent et erat interdum, consequat leo quis, pulvinar justo. In hac habitasse platea dictumst. Donec vulputate, massa aliquet egestas viverra, nisl nibh dignissim orci, eget efficitur urna metus vel enim. Suspendisse commodo felis et enim vestibulum luctus. Proin maximus molestie dolor et vestibulum. Vestibulum posuere erat quis pellentesque gravida.</p>
+          <li>Sed vitae sollicitudin quam</li>
+          <li>Sed vitae sollicitudin quam</li>
+          <li>Sed vitae sollicitudin quam</li>
+        </section>
+      </main>
+     
+      
+</body>
+</html>
